@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "icon": "dice-d6"
+  },
+  "options": {},
+  "attributes": {
+    "Images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "CallToAction": {
+      "type": "string",
+      "required": true
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "layout.button"
+    }
+  }
+}
